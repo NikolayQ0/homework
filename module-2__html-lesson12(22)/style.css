@@ -1,0 +1,25 @@
+header {
+    height: 60px;
+    background: rgb(255, 172, 19);
+}
+
+.header__ul {
+    list-style: none;
+}
+
+.statham {
+    background: rgb(255, 212, 132);
+}
+
+footer {
+    background: rgb(197, 83, 197);
+    height: 300px;
+}
+
+.footer__text {
+    color: white;
+}
+
+.footer__link {
+    color: white;
+}
