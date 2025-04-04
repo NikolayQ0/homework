@@ -1,3 +1,28 @@
-p {
-    font-family: "roboto", sans-serif;
+.text-1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.text-2 {
+    text-decoration: line-through;
+}
+
+.text-3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-4 {
+    text-decoration: overline wavy #000000;
+    word-spacing: 30px;
+    text-shadow: 1px 1px 0 #eb66bf;
+    
+}
+
+.text-5 {
+    letter-spacing: 5px;
+    text-decoration: underline double;
 }
