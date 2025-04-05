@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 article {
     width: 1500px;
     height: 500px;
