@@ -1,0 +1,79 @@
+:root {
+    --accent-color: #000;
+    --general-color: #FFF;
+    --hover-color: #575757;
+    --hover-color-2: #292929;
+    --transition: .4s;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+.body {
+    font-family: "Inter", "Arial", sans-serif;
+    line-height: 1.2;
+    color: var(--accent-color);
+    background: var(--general-color);
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider,
+.categories,
+.product-cards,
+.packs {
+    margin-bottom: 75px;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.sect-head {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+h1, h2, h3, h4, h5, h6, .card-title {
+    font-family: "ReadexPro";
+
+}
+
+
+.title { /* h2 */
+    font-size: 42px;
+    line-height: 52.5px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+h6 {
+    font-size: 13px;
+    line-height: 1.3;
+}
+
