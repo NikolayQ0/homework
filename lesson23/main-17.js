@@ -31,17 +31,17 @@ let passUser1 = 123456;
 let userName = prompt('Введите имя пользователя', '');
 let pass = prompt('Введите пароль', '');
 
-if (userName == nameUser0 && pass == passUser0) {
+if (userName === nameUser0 && pass === passUser0) {
     alert("Доступ разрешен");
     isLogIn = true;
-} else if (userName == nameUser1 && pass == passUser1) {
+} else if (userName === nameUser1 && pass === passUser1) {
     alert("Доступ разрешен");
     isLogIn = true;
 } else {
+    alert("Доступ запрещён");
     console.log('error');
     isLogIn = false;
 }
-
 
 
 // Задача 2.
@@ -146,5 +146,7 @@ switch (type) {
 }
 
 let value = i *coef * discount;
+
+alert(`Итоговая цена: ${value}!`)
 
 alert(`Итоговая цена: ${value}!`)
